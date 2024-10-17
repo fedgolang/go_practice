@@ -21,7 +21,7 @@ func concat(str string) ([]int, error) {
 }
 
 func main() {
-	inputStr := "34, 67, 55, 33, 12, 98"
+	inputStr := "1, 2, 3, 4, 5, 6"
 	res, err := concat(inputStr)
 	if err != nil {
 		return
